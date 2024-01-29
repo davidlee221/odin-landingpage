@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  background-color: #000;
+  font-family: "Roboto";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+  background-color: #1f2937;
+}
+.header-logo-text {
+  font-size: 24px;
+  color: #F9faf8;
+  font-weight: 900;
+}
+
+ul {
+  display: flex;
+  font-size: 12px;
+  gap: 15px;
+  color: #ccc;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.area-1 {
+  background-color: #1f2937;
+  display: flex;
+  padding: 100px;
+}
+
+.area-1-caption-area {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-placeholder {
+  flex-grow: 1;
+  color: #f9faf8;
+  background-color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+  color: #F9faf8;
+}
+
+
+.area-1-text {
+  color: #F9faf8
+}
+.button-1 {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.random-area {
+  padding: 50px;
+  background-color: #fff;
+}
+.random-area h2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.gallery-cell {
+  flex-basis: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.blue-box {
+  border: 5px solid #3882f6;
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+} 
+
+.quote-area {
+  background-color: #eee;
+  padding: 100px 200px
+}
+
+.quote-area h3 {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-area h4 {
+  font-weight: 900;
+  text-align: right;
+}
+
+.action-area {
+  padding: 100px 200px;
+  background-color: #fff;
+}
+.blue-action {
+  background-color: #3882f6;
+  padding: 15px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-area h3{
+  font-weight: 900;
+  color: #fff;
+  padding: 0;
+  margin: 0;  
+}
+
+.action-area{
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+}
+.action-area p{
+  font-size: 12px;
+  padding: 0;
+  margin: 0;  
+  font-weight: 100;
+}
+
+.action-button {
+  border: 1.5px solid white;
+  background-color: #3882f6;
+  color: white;
+  padding: 2px 20px;
+  /* margin: 10px 0px; */
+  border-radius: 5px;
+}
